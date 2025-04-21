@@ -2,7 +2,7 @@ $('#contactForm').on('submit', function (e) {
   e.preventDefault();
 
   $.ajax({
-    url: 'contact.php',
+    url: 'mail/contact.php',
     type: 'POST',
     data: $(this).serialize(),
     success: function () {
