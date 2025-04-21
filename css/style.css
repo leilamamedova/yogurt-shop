@@ -2126,6 +2126,11 @@ textarea.form-control {
   flex-wrap: wrap;
   margin-right: -5px;
   margin-left: -5px;
+  margin-bottom: 10px;
+}
+
+.control-group {
+  margin-bottom: 10px;
 }
 
 .form-row > .col,
